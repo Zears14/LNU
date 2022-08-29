@@ -20,9 +20,9 @@ module.exports = [
     
     **Winner** : $message[2]} {color:BLUE}};yes]]
     
-    $onlyIf[$messageSlice[2]!=;Argument price is missing]
+    $onlyIf[$messageSlice[2;3]!=;Argument price is missing]
     $onlyIf[$isNumber[$message[2]]==true;Invalid number of winner given]
-    $onlyIf[$get[giveawayTime]!=-1;Invalid usages **!start {time} {winnerNumber} {price} {roleRequired}**]
+    $onlyIf[$get[giveawayTime]!=-1;Invalid usages **!start {time} {winnerNumber} {price}**]
     $let[giveawayTime;$parseTime[$if[$message[1]!=;$message[1];1s10ms]]]
     $onlyPerms[managemessages;There are not enough permissions for you to do this command]
     `,
