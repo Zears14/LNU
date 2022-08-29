@@ -1,7 +1,7 @@
 {
-  "name": "discord-bot",
+  "name": "My-bot",
   "version": "1.0.0",
-  "description": "<h1>Discord Giveaway Bot</h1> <img align='right' src=\"https://media.discordapp.net/attachments/885873252654776340/974247764273803264/unknown.png\" height=\"\" width=\"3000\" alt=\"Demo giveaway\"> <img align='left' src=\"https://media.discordapp.net/attachments/841204991221694467/974544557763084349/unknown.png\" height=\"\" width=\"3000\" alt=\"Demo giveaway\">",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,17 +10,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "aoi.js": "^5.1.2"
-  },
-  "devDependencies": {
-    "node": "^16.14.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mohitmimani/Discord-Giveaway-Bot.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mohitmimani/Discord-Giveaway-Bot/issues"
-  },
-  "homepage": "https://github.com/mohitmimani/Discord-Giveaway-Bot#readme"
+    "aoi.js": "^4.5.0",
+    "express": "^4.17.1",
+    "opusscript": "^0.0.8",
+    "node-opus": "^0.3.3",
+    "@discordjs/opus": "^0.5.3",
+    "ffmpeg-static": "^4.4.0",
+    "ytdl-core": "^4.9.1",
+    "tweetnacl": "^1.0.3"
+  }
 }
