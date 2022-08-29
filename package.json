@@ -1,7 +1,7 @@
 {
   "name": "My-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "<h1>Discord Giveaway Bot</h1> <img align='right' src=\"https://media.discordapp.net/attachments/885873252654776340/974247764273803264/unknown.png\" height=\"\" width=\"3000\" alt=\"Demo giveaway\"> <img align='left' src=\"https://media.discordapp.net/attachments/841204991221694467/974544557763084349/unknown.png\" height=\"\" width=\"3000\" alt=\"Demo giveaway\">",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,16 @@
     "ffmpeg-static": "^4.4.0",
     "ytdl-core": "^4.9.1",
     "tweetnacl": "^1.0.3"
-  }
+  },
+  "devDependencies": {
+    "node": "^16.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zears14/LNU.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zears14/LNU/issues"
+  },
+  "homepage": "https://github.com/Zears14/LNU#readme"
 }
